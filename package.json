@@ -3,8 +3,8 @@
   "version": "4.2.0",
   "author": "Invertase <contact@invertase.io> (http://invertase.io)",
   "description": "A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Storage and more.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "genversion lib/version.js && npm run validate-ts-declarations && npm run build-lib && npm run build-flow",
     "build-flow": "flow-copy-source -i */__tests__* lib dist",
